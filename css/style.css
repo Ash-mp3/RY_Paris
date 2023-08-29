@@ -52,10 +52,10 @@ body, html {
     font-size: 2.2em;
 }
 .mainSections {
-    margin: 60px 100px 0 100px;
+    padding: 60px 100px 0 100px;
 }
-.mainSections:nth-child(2) {
-    background-color: blue;
+.mainSections:nth-child(4){
+    background-color: #DADFEA;
 }
 
 .mainSections h2 {
@@ -83,7 +83,9 @@ body, html {
     object-position: 50%;
     font-size: 1.25em;
 }
-
+.mainSections:nth-child(4) .imgDiv img, .mainSections:nth-child(4) .imgDiv span {
+    width: 23%;
+}
 .imgDiv img {
     height: 255px;
 }
