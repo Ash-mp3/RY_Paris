@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header */
+
+.navBar {
+    height: 110px;
+    width: 100%;
+    background-color: #F1A536;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar img {
+    margin-left: 85px;
+}
+
+.navItems {
+    display: flex;
+    margin-right: 120px;
+    gap: 25px;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* main image with the text box */
+
+.mainImg {
+    position: relative;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainImg img {
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.mainImg h1 {
+    background-color: white;
+    position: absolute;
+    bottom: 70px;
+    margin-right: 75px;
+    padding: 10px 20px;
+    font-size: 2.2em;
+}
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #F1A536;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.footer h3 {
+    margin-left: 100px;
+    font-weight: 400;
+}
