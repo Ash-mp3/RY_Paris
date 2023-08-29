@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.navBar {
+    height: 110px;
+    width: 100%;
+    background-color: #F1A536;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navBar img {
+    margin-left: 70px;
+}
+.navItems {
+    display: flex;
+    margin-right: 120px;
+    gap: 25px;
+    font-size: 1.4em;
+}
+.mainImg { 
+    position: relative;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+}
+.mainImg img {
+   
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+    object-position: 0% 5%;
+    margin-top: 2px;
+}
+.mainImg h1 {
+    background-color: white;
+    position: absolute;
+    bottom: 70px;
+    margin-right: 100px;
+    padding: 10px 20px;
+    font-size: 2.2em;
+}
+.mainSections {
+    margin: 60px 100px 0 100px;
+}
+.mainSections:nth-child(2) {
+    background-color: blue;
+}
+
+.mainSections h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.mainSections p {
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+
+.imgDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+.imgDiv img, .imgDiv span{
+    width: 31%;
+    text-align: center;
+    object-fit: cover;
+    object-position: 50%;
+    font-size: 1.25em;
+}
+
+.imgDiv img {
+    height: 255px;
+}
+
+.imgDiv span {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
