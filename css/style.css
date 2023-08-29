@@ -26,7 +26,12 @@
     font-size: 1.3em;
 }
 
-/* the big image with the text box */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* main image with the text box */
 .mainImg {
     position: relative;
     height: 510px;
