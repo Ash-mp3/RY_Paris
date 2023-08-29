@@ -2,13 +2,10 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body, html {
-    height: 100%;
-    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+/* header */
 .navBar {
     height: 110px;
     width: 100%;
@@ -16,33 +13,36 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .navBar img {
-    margin-left: 70px;
+    margin-left: 85px;
 }
+
 .navItems {
     display: flex;
     margin-right: 120px;
     gap: 25px;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
-.mainImg { 
+
+/* the big image with the text box */
+.mainImg {
     position: relative;
     height: 510px;
     display: flex;
     justify-content: center;
 }
+
 .mainImg img {
-   
     position: absolute;
     width: 100%;
     height: 510px;
     object-fit: cover;
     object-position: 0% 5%;
-    margin-top: 2px;
+    margin-top: 3px;
 }
+
 .mainImg h1 {
     background-color: white;
     position: absolute;
@@ -51,23 +51,24 @@ body, html {
     padding: 10px 20px;
     font-size: 2.2em;
 }
+
+/* overhead styles for the three sections,
+ with all of the first sections styles  */
+
 .mainSections {
     padding: 60px 100px 0 100px;
-}
-.mainSections:nth-child(4){
-    background-color: #DADFEA;
 }
 
 .mainSections h2 {
     font-size: 2.2em;
     margin-bottom: 30px;
+    font-weight: 900;
 }
 
 .mainSections p {
     font-size: 1.6em;
     line-height: 1.4em;
 }
-
 
 .imgDiv {
     display: flex;
@@ -76,21 +77,74 @@ body, html {
     margin-top: 45px;
 }
 
-.imgDiv img, .imgDiv span{
+.imgDiv img,
+.imgDiv span {
     width: 31%;
     text-align: center;
     object-fit: cover;
     object-position: 50%;
     font-size: 1.25em;
 }
-.mainSections:nth-child(4) .imgDiv img, .mainSections:nth-child(4) .imgDiv span {
-    width: 23%;
+
+/* 2ed section  */
+
+.mainSections:nth-child(4) {
+    background-color: #c4c4c6;
 }
-.imgDiv img {
-    height: 255px;
+
+.mainSections:nth-child(4) .imgDiv img,
+.mainSections:nth-child(4) .imgDiv span {
+    width: 23%;
+    background-color: white;
 }
 
 .imgDiv span {
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.mainSections:nth-child(4) .imgDiv span {
+    margin-bottom: 65px;
+}
+
+/* 3rd section  */
+
+.mainSections:nth-child(5) .imgDiv img,
+.mainSections:nth-child(5) .imgDiv span {
+    width: 30%;
+}
+
+.mainSections:nth-child(5) .imgDiv img {
+    border: 8px solid #c4c4c6;
+}
+
+.mainSections:nth-child(5) .imgDiv {
+    margin-top: 30px
+}
+
+.mainSections:nth-child(5) .imgDiv span {
+    padding-top: 10px
+}
+
+/* footer */
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #F1A536;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.footer h3 {
+    margin-left: 100px;
+    font-weight: 400;
 }
